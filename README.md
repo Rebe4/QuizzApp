@@ -1,8 +1,15 @@
-# React + Vite
+# QuizzApp 🎯
+QuizzApp es una aplicación interactiva de preguntas y respuestas desarrollada con React. Su objetivo es ofrecer a los usuarios/as una forma entretenida de poner a prueba sus conocimientos en distintas categorías.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Características 🚀
+- ✅ Interfaz dinámica y atractiva
+- ✅ Añadir y eliminar preguntas de forma interactiva
+- ✅ Puntuación en tiempo real
+- ✅ Feedback inmediato tras responder
+- ✅ Responsive y fácil de usar
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologías utilizadas 🛠️
+- React
+- JavaScript
+- JSX
+- CSS
