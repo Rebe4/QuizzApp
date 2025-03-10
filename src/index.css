@@ -1,0 +1,142 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(56, 56, 56, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #6633ee 100%);
+}
+
+/* Pantalla de inicio */
+.start-screen {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.start-screen h1 {
+  font-size: 2.5rem;
+  color: #929090;
+}
+
+.start-screen p {
+  color: #464646;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Contenedor del quiz */
+.quiz-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Pregunta */
+.question-box {
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #313030;
+  margin-bottom: 20px;
+}
+
+/* Botones de opciones */
+.option-button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #8b8989;
+  color: #313030;
+  transition: background 0.3s ease;
+}
+
+.option-button:hover {
+  background: #b198f5;
+}
+
+/* Resultado */
+.result {
+  text-align: center;
+}
+
+.result h2 {
+  color: #696969;
+  font-size: 2rem;
+}
+
+/* Botón de reinicio */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s, background 0.25s;
+  margin-top: 8px;
+}
+
+button:hover {
+  border-color: #6633ee;
+  background-color: #575757;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Modo claro */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #8b9094;
+    background-color: #f4f4f4;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #c2c2c2;
+  }
+}
